@@ -1,0 +1,156 @@
+{
+  "app": {
+    "title": "PACE",
+    "beta": "베타"
+  },
+  "score": {
+    "label": "PACE 점수",
+    "adjusted": "변화가 반영되었습니다.",
+    "explanationTitle": "PACE 점수는 무엇을 의미하나요?",
+    "explanationBody": "PACE 점수는 다음 세 가지를 기반으로 계산됩니다:\n1. 목표 달성률\n2. 고정비 대비 수입 안정성\n3. 최소 3개월 이상 유지 가능 여부\n\n점수가 높을수록 구조적 안정성이 높습니다.\n하지만 전략적 선택은 개인 상황에 따라 달라질 수 있습니다."
+  },
+  "level": {
+    "preparation": "정비 단계",
+    "building": "구조 형성",
+    "stable": "안정 구간",
+    "strategic": "전략 구간",
+    "msg": {
+      "preparation": "구조를 다시 정돈하면 여지가 생깁니다.",
+      "building": "구조가 점차 단단해지고 있습니다.",
+      "stable": "선택 가능한 여유가 형성되었습니다.",
+      "strategic": "전략적으로 움직일 수 있는 기반이 마련되었습니다."
+    }
+  },
+  "grade": {
+    "preparation": "정비 단계",
+    "forming": "안정 형성",
+    "stable": "안정 구간",
+    "strategic": "전략 구간",
+    "autonomy": "자율 구간",
+    "msg": {
+      "preparation": "설계를 조금 더 다듬으면 여유가 생깁니다.",
+      "forming": "기초 안정이 만들어지고 있습니다.",
+      "stable": "선택 가능한 여유가 확보되었습니다.",
+      "strategic": "원하는 방향을 설계할 수 있는 구간입니다.",
+      "autonomy": "커리어 선택이 가능한 수준입니다."
+    },
+    "statusLabel": "현재 상태",
+    "indicatorLabel": "안정 지표"
+  },
+  "fields": {
+    "target": "목표 기간",
+    "targetHelper": "설정한 목표 개월 기준 필요 비상금 총액",
+    "runway": "현재 유지 가능한 기간",
+    "runwayHelper": "현재 비상금 기준으로 고정비를 몇 개월 유지할 수 있는지",
+    "progress": "달성률",
+    "progressHelper": "목표 비상금 대비 현재 비상금 비율",
+    "lowestIncome": "월 최소 수입",
+    "lowestIncomeHelper": "보수적으로 계산한 한 달 기준 최소 수입입니다. (세후 기준 권장)",
+    "fixedExpenses": "월 고정비",
+    "fixedExpensesHelper": "매달 반드시 나가는 비용입니다.",
+    "variableExpenses": "월 변동비",
+    "variableExpensesHelper": "상황에 따라 조정 가능한 비용입니다.",
+    "emergencyFund": "현재 비상금",
+    "emergencyFundHelper": "현재 즉시 사용할 수 있는 현금성 자산 총액입니다.",
+    "targetMonths": "목표 개월",
+    "targetMonthsHelper": "현재 고정비 기준으로 몇 개월을 유지할 수 있는 구조를 만들 것인지 설정합니다.",
+    "incomeDay": "월 수입 입금일",
+    "incomeDayHelper": "매달 수입이 입금되는 날짜입니다. 월간 운영 사이클 기준이 됩니다.",
+    "manwon": "만원",
+    "monthsUnit": "{{count}}개월",
+    "dayUnit": "{{n}}일",
+    "totalExpenses": "월 총 지출"
+  },
+  "actions": {
+    "viewStrategies": "전략 보기",
+    "editStructure": "설계 다듬기",
+    "startNewCycle": "이번 달 계획 시작",
+    "applyChanges": "설계 반영",
+    "applyScenario": "이 방향으로 설정",
+    "resetAll": "초기화",
+    "back": "돌아가기",
+    "switchLanguage": "언어 전환"
+  },
+  "cycle": {
+    "newMonthAvailable": "새로운 달을 시작할 수 있습니다.",
+    "nextCycleOn": "이번 달 계획 시작 가능: 매달 {{day}}일",
+    "recommendationSectionTitle": "이번 달 제안",
+    "acceptRecommendation": "이번 달 실행하기",
+    "deferRecommendation": "이번 달은 보류",
+    "statusAccepted": "실행 완료",
+    "statusDeferred": "보류함",
+    "noCycleHint": "이번 달 계획을 먼저 시작하세요"
+  },
+  "alternative": {
+    "title": "대안 보기",
+    "viewAlternative": "대안 보기",
+    "switchToThis": "이 제안으로 바꾸기"
+  },
+  "structure": {
+    "title": "구조 입력"
+  },
+  "expenseCalc": {
+    "titleFixed": "월 고정비 계산",
+    "titleVariable": "월 변동비 계산",
+    "addItem": "항목 추가",
+    "sum": "합계",
+    "apply": "적용",
+    "close": "닫기",
+    "itemNamePlaceholder": "항목명",
+    "delete": "삭제",
+    "verify": "확인",
+    "category": {
+      "housing": "주거",
+      "insurance": "보험",
+      "loan": "대출",
+      "subscription": "구독",
+      "utility": "공과금",
+      "other": "기타"
+    },
+    "adjustableLevel": {
+      "impossible": "조정 불가",
+      "possible": "조정 가능",
+      "easy": "쉽게 조정"
+    }
+  },
+  "strategy": {
+    "title": "전략 선택",
+    "aTitle": "지출을 조금 더 가볍게 해보는 건 어떨까요?",
+    "aSub": "월 지출 약 {{reduction}}만원 절감 · 유지 가능 기간 약 {{runwayDelta}}개월 증가",
+    "aExplanation": "월 지출이 약 {{reduction}}만원 줄어듭니다.\n유지 가능한 기간이 약 {{runwayDelta}}개월 늘어납니다.",
+    "bTitle": "비상금을 조금 더 두둑하게 해보는 건 어떨까요?",
+    "bSub": "비상금 50만원 추가 · 유지 가능 기간 약 {{runwayDelta}}개월 증가",
+    "bExplanation": "유지 가능한 기간이 약 {{runwayDelta}}개월 늘어납니다.\n목표 달성률이 {{progressBefore}}%에서 {{progressAfter}}%로 나아집니다.",
+    "cTitle": "지출과 비상금을 함께 조정해보는 건 어떨까요?",
+    "cSub": "월 지출 약 {{reduction}}만원 절감 + 비상금 30만원 추가 · 유지 가능 기간 약 {{runwayDelta}}개월 증가",
+    "cExplanation": "월 지출이 약 {{reduction}}만원 줄고, 유지 가능한 기간이 약 {{runwayDelta}}개월 늘어납니다."
+  },
+  "debug": {
+    "panel": "Debug Panel"
+  },
+  "expenseDetail": {
+    "score": "점수",
+    "status": {
+      "ALLOW": "허용",
+      "WARN": "주의",
+      "BLOCK": "차단"
+    },
+    "alternativeOptions": "대안 옵션",
+    "loading": "대안 생성 중...",
+    "viewAlternatives": "대안 보기",
+    "hideAlternatives": "대안 숨기기",
+    "saving": "절감",
+    "expectedCost": "예상 비용",
+    "chooseAlternative": "이 대안 선택"
+  },
+  "impact": {
+    "checklist": {
+      "housing": ["월세/관리비 협의 가능성 검토", "전세 전환 또는 보증금 조정 검토", "복비·단열 등 에너지 절감", "계약 갱신 시 조건 재협상"],
+      "insurance": ["중복 보험 정리", "필요 보장 vs 현재 가입 비교", "연간 납입 방식 검토", "갱신 시 보험료 조정 가능성"],
+      "loan": ["대출 통합·상환 구조 검토", "금리 인하 상품 비교", "불필요 대출 조기 상환", "원리금 상환 vs 거치형 비교"],
+      "subscription": ["미사용 구독 해지", "연간 결제 할인 검토", "가족 공유 플랜 검토", "필요한 것만 남기기"],
+      "utility": ["통신 요금제 변경 검토", "공과금 자동이체 할인", "에너지 사용 패턴 점검", "요금제 비교"],
+      "other": ["월 지출 내역 확인", "필수 vs 선택 구분", "대체 가능한 항목 검색", "협상·할인 가능성 검토"]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "app": {
+    "title": "PACE",
+    "beta": "Beta"
+  },
+  "score": {
+    "label": "PACE Score",
+    "adjusted": "Changes have been reflected.",
+    "explanationTitle": "What does the PACE score mean?",
+    "explanationBody": "The PACE score is calculated from:\n1. Target achievement rate\n2. Income stability vs. fixed expenses\n3. Whether you can sustain at least 3 months\n\nA higher score indicates stronger structural stability.\nStrategic choices depend on your situation."
+  },
+  "level": {
+    "preparation": "Preparation",
+    "building": "Building",
+    "stable": "Stable",
+    "strategic": "Strategic",
+    "msg": {
+      "preparation": "There is room if you reorganize your structure.",
+      "building": "Your structure is gradually solidifying.",
+      "stable": "Room for choice has formed.",
+      "strategic": "A foundation for strategic moves is in place."
+    }
+  },
+  "grade": {
+    "preparation": "Preparation",
+    "forming": "Stability forming",
+    "stable": "Stable zone",
+    "strategic": "Strategic zone",
+    "autonomy": "Autonomy zone",
+    "msg": {
+      "preparation": "A bit more design refinement will create room.",
+      "forming": "Basic stability is forming.",
+      "stable": "Room for choice is secured.",
+      "strategic": "You can design the direction you want.",
+      "autonomy": "Career choices are possible at this level."
+    },
+    "statusLabel": "Current status",
+    "indicatorLabel": "Stability indicator"
+  },
+  "fields": {
+    "target": "Target",
+    "targetHelper": "Required emergency fund for your target months",
+    "runway": "Current runway",
+    "runwayHelper": "How many months you can sustain fixed expenses with current emergency fund",
+    "progress": "Progress",
+    "progressHelper": "Current emergency fund vs. target emergency fund",
+    "lowestIncome": "Monthly minimum income",
+    "lowestIncomeHelper": "Conservative estimate of minimum monthly income (after tax recommended)",
+    "fixedExpenses": "Monthly fixed expenses",
+    "fixedExpensesHelper": "Costs you must pay every month.",
+    "variableExpenses": "Monthly variable expenses",
+    "variableExpensesHelper": "Costs that can be adjusted depending on situation.",
+    "emergencyFund": "Current emergency fund",
+    "emergencyFundHelper": "Total liquid assets you can use immediately.",
+    "targetMonths": "Target months",
+    "targetMonthsHelper": "Set how many months of runway you want to build at current fixed expense level.",
+    "incomeDay": "Income deposit day",
+    "incomeDayHelper": "The date each month when income is deposited. Used as monthly cycle anchor.",
+    "manwon": "×10k KRW",
+    "monthsUnit": "{{count}} mo",
+    "dayUnit": "day {{n}}",
+    "totalExpenses": "Monthly total expenses"
+  },
+  "actions": {
+    "viewStrategies": "View Strategies",
+    "editStructure": "Refine design",
+    "startNewCycle": "Start this month's plan",
+    "applyChanges": "Apply design",
+    "applyScenario": "Set this direction",
+    "resetAll": "Reset All",
+    "back": "Back",
+    "switchLanguage": "Switch language"
+  },
+  "cycle": {
+    "newMonthAvailable": "A new month is available.",
+    "nextCycleOn": "This month's plan available: day {{day}}",
+    "recommendationSectionTitle": "This month's suggestion",
+    "acceptRecommendation": "Execute this month",
+    "deferRecommendation": "Defer this month",
+    "statusAccepted": "Accepted",
+    "statusDeferred": "Deferred",
+    "noCycleHint": "Start this month's plan first"
+  },
+  "alternative": {
+    "title": "View alternative",
+    "viewAlternative": "View alternative",
+    "switchToThis": "Switch to this suggestion"
+  },
+  "structure": {
+    "title": "Structure input"
+  },
+  "expenseCalc": {
+    "titleFixed": "Fixed expenses calculator",
+    "titleVariable": "Variable expenses calculator",
+    "addItem": "Add item",
+    "sum": "Total",
+    "apply": "Apply",
+    "close": "Close",
+    "itemNamePlaceholder": "Item name",
+    "delete": "Delete",
+    "verify": "Verify",
+    "category": {
+      "housing": "Housing",
+      "insurance": "Insurance",
+      "loan": "Loan",
+      "subscription": "Subscription",
+      "utility": "Utilities",
+      "other": "Other"
+    },
+    "adjustableLevel": {
+      "impossible": "Impossible",
+      "possible": "Possible",
+      "easy": "Easy"
+    }
+  },
+  "strategy": {
+    "title": "Choose strategy",
+    "aTitle": "What if you lighten expenses a bit?",
+    "aSub": "~{{reduction}} manwon less monthly · ~{{runwayDelta}} mo more runway",
+    "aExplanation": "Monthly spending drops by about {{reduction}} manwon.\nRunway increases by about {{runwayDelta}} months.",
+    "bTitle": "What if you build up your emergency fund a bit?",
+    "bSub": "500k added to emergency fund · ~{{runwayDelta}} mo more runway",
+    "bExplanation": "Runway increases by about {{runwayDelta}} months.\nTarget progress improves from {{progressBefore}}% to {{progressAfter}}%.",
+    "cTitle": "What if you adjust both expenses and emergency fund?",
+    "cSub": "~{{reduction}} manwon less + 300k emergency fund · ~{{runwayDelta}} mo more runway",
+    "cExplanation": "Monthly spending drops by about {{reduction}} manwon, runway increases by about {{runwayDelta}} months."
+  },
+  "debug": {
+    "panel": "Debug Panel"
+  },
+  "expenseDetail": {
+    "score": "Score",
+    "status": {
+      "ALLOW": "Allow",
+      "WARN": "Warn",
+      "BLOCK": "Block"
+    },
+    "alternativeOptions": "Alternative options",
+    "loading": "Generating alternatives...",
+    "viewAlternatives": "View alternatives",
+    "hideAlternatives": "Hide alternatives",
+    "saving": "Saving",
+    "expectedCost": "Expected cost",
+    "chooseAlternative": "Choose alternative"
+  },
+  "impact": {
+    "checklist": {
+      "housing": ["Review rent/maintenance negotiation options", "Consider jeonse or deposit adjustment", "Energy savings via insulation", "Renegotiate at renewal"],
+      "insurance": ["Consolidate overlapping coverage", "Compare needs vs current coverage", "Review annual payment options", "Check premium adjustment at renewal"],
+      "loan": ["Review consolidation/repayment structure", "Compare lower-rate products", "Early repayment of unnecessary loans", "Compare principal vs interest-only"],
+      "subscription": ["Cancel unused subscriptions", "Review annual payment discounts", "Family shared plans", "Keep only essentials"],
+      "utility": ["Review telecom plan changes", "Auto-transfer discount for utilities", "Check energy usage patterns", "Compare plans"],
+      "other": ["Review monthly spending", "Distinguish essential vs optional", "Find alternatives", "Check negotiation/discount options"]
+    }
+  }
+}
