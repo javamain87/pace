@@ -1,3 +1,5 @@
+[![CI](https://github.com/javamain87/pace/actions/workflows/ci.yml/badge.svg)](https://github.com/javamain87/pace/actions/workflows/ci.yml) [![Vercel](https://vercel.com/javamain87s-projects/pace/badge) ](https://vercel.com/javamain87s-projects/pace)
+
 # pace
 
 A frontend app built with React, TypeScript, and Vite.
